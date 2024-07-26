@@ -77,7 +77,7 @@ class _State extends State<CameraAbsenPage> with TickerProviderStateMixin {
         content: Row(
           children: [
             const CircularProgressIndicator(valueColor:
-            AlwaysStoppedAnimation<Color>(Colors.pinkAccent)),
+            AlwaysStoppedAnimation<Color>(Color.fromARGB(255, 0, 84, 152))),
             Container(
                 margin: const EdgeInsets.only(left: 20),
                 child: const Text("Sedang memeriksa data...")
@@ -97,14 +97,14 @@ class _State extends State<CameraAbsenPage> with TickerProviderStateMixin {
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Colors.pinkAccent,
+        backgroundColor: Color.fromARGB(255, 0, 84, 152),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios, color: Colors.white),
           onPressed: () => Navigator.of(context).pop(),
         ),
         title: const Text(
           "Foto Selfie",
-          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
+          style: TextStyle(fontFamily: 'Mont', fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
         ),
       ),
       body: Stack(
@@ -152,9 +152,9 @@ class _State extends State<CameraAbsenPage> with TickerProviderStateMixin {
                       padding: const EdgeInsets.only(top: 40),
                       child: ClipOval(
                         child: Material(
-                          color: Colors.pinkAccent, // Button color
+                          color: Color.fromARGB(255, 0, 84, 152), // Button color
                           child: InkWell(
-                            splashColor: Colors.pink, // Splash color
+                            splashColor: Color.fromARGB(255, 65, 115, 255), // Splash color
                             onTap: () async {
                               final hasPermission = await handleLocationPermission();
                               try {
