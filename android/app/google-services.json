@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "737687528932",
+    "project_id": "east-ab750",
+    "storage_bucket": "east-ab750.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737687528932:android:35d43af53800ffd4d3d3f1",
+        "android_client_info": {
+          "package_name": "com.example.east"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMNacnsK-DivngcoGiHkHsqD2uo-GMv08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
